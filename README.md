@@ -1,4 +1,12 @@
-# EasyLifter Referee
+
+# Development of this software has now fully moved to EasyLifter Premium Edition. Learn more at https://easyliftersoftware.com/
+
+This repository will remain here for archive purposes, but please check out our website above for all-new solutions in powerlifting.
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+
+## EasyLifter Referee (ARCHIVED VERSION - SEE ABOVE)
 
 
 <div style="text-align: justify">
