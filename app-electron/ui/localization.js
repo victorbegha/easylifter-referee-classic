@@ -1,5 +1,5 @@
 /*
-EasyLifter Referee - Free referee lights and timing system for powerlifting
+EasyLifter Referee (Classic Edition) - Referee lights and timing system for powerlifting
 Copyright (C) 2024  Victor Begha
 Licensed under GPLv3 (https://www.gnu.org/licenses/gpl-3.0.html)
 */
@@ -45,7 +45,9 @@ const localizationStrings = {
     strSetAttemptChange: 'New attempt change',
 
     strVersion: 'Version',
-    strAboutDescription: 'EasyLifter Referee is an open source software licenced under the GNU General Public License v3.',
+    strAboutDescription: 'EasyLifter Referee (Classic Edition) is licenced under the GNU General Public License v3.',
+    strCheckWebsite1: 'Looking for a new and improved referee lights system with more features and a faster setup? Check out',
+    strCheckWebsite2: 'for our modern, web-based solution!',
     strGithubProject: 'Learn more on the project\'s GitHub page.',
     strAboutAuthor: 'Author',
     strAboutThanks: 'Special thanks',
@@ -92,7 +94,9 @@ const localizationStrings = {
     strSetAttemptChange: 'Nova entrega de pedida',
 
     strVersion: 'Versão',
-    strAboutDescription: 'EasyLifter Referee é um software de código aberto, licenciado sob a GNU General Public License v3.',
+    strAboutDescription: 'EasyLifter Referee (Classic Edition) é licenciado sob a GNU General Public License v3.',
+    strCheckWebsite1: 'Quer um sistema de luzes novo e melhorado com mais funcionalidades e configuração mais rápida? Visite',
+    strCheckWebsite2: 'para nossa solução mais moderna!',
     strGithubProject: 'Conheça mais na página GitHub do projeto.',
     strAboutAuthor: 'Autor',
     strAboutThanks: 'Agradecimentos',

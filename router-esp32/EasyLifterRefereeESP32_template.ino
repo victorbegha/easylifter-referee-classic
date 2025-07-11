@@ -1,5 +1,5 @@
 /*
-EasyLifter Referee - Free referee lights and timing system for powerlifting
+EasyLifter Referee (Classic Edition) - Referee lights and timing system for powerlifting
 
 Copyright (C) 2024  Victor Begha
 

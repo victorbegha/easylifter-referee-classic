@@ -1,12 +1,14 @@
 
-# Development of this software has now fully moved to EasyLifter Premium Edition. Learn more at https://easyliftersoftware.com/
+# Development of this software has now fully moved to the new, web-based version of EasyLifter Referee. Learn more at https://easyliftersoftware.com/
 
-This repository will remain here for archive purposes, but please check out our website above for all-new solutions in powerlifting.
+Check out our new and improved referee lights system at https://easyliftersoftware.com/. With many new features, an intuitive interface, and zero installation, the web edition of EasyLifter Referee aims to give more efficiency for referees and a better experience for lifters!
+
+This repository will remain here for archival purposes.
 
 <br><br><br><br><br>
 <br><br><br><br><br>
 
-## EasyLifter Referee (ARCHIVED VERSION - SEE ABOVE)
+## EasyLifter Referee - Classic Edition
 
 
 <div style="text-align: justify">
@@ -15,15 +17,15 @@ This repository will remain here for archive purposes, but please check out our 
 <img src="assets/BannerGit.png" alt="EasyLifter Referee - Open Source Software for Powerlifting - by Victor Begha" style="max-height: 150px" />
 </div>
 
-EasyLifter Referee is an open source system for powerlifting referees.
+EasyLifter Referee (Classic Edition) is the original open source version of <a href="https://easyliftersoftware.com/">our powerlifting referee lights system</a>. For the modern, fully featured version, please visit our website!
 
 It allows referees to select decisions wirelessly from their phones, showing the results to the meet audience - both the 'white' or 'red' lights for 'good lift' or 'no lift', as well as the corresponding colored referee cards under IPF rules.
 
 Additionally, the system also features an easy-to-use, multi purpose timer - it's mainly meant to count down the time for a lift, but can also be used to count compensatory minutes or the time between rounds. Lastly, after each completed lift, it counts down one minute on a separate, individual timer for the lifter to inform their next attempt.
 
-EasyLifter Referee requires no internet access, as many powerlifting meets are held in locations without good connections. Instead, it uses a cheap, widely available ESP32 board to generate its own WiFi network.
+Classic Edition requires no internet access, instead using an ESP32 board to generate its own WiFi network.
 
-More information is available on https://easyliftersoftware.com/
+More information about the project is available on https://easyliftersoftware.com/
 
 ## Why
 
@@ -31,11 +33,11 @@ I've seen a few ways referee lights have been implemented in powerlifting meets.
 
 On the other hand, there are commercial hardware solutions with remote controllers for each referee, integrated timers, and other features. They're quite sophisticated, but also very expensive, which makes them prohibitive for meets at the local and state level (especially if you're outside the US and have to deal with international shipping and unfavorable currency exchange rates).
 
-On April 2024, I became a national powerlifting referee for my country's IPF affiliate, and I started working on this system initially just to improve meet presentation locally. But I quickly realized the sport needs more accessible tools for organizing and running competitions; there's already a lot of expensive equipment involved in strength sports, and when you have to pay out hundreds of dollars just for a decent way to show something as simple as referee decisions, something needs to change. So I hope to contribute positively by creating free, open source software for all things powerlifting, not just refereeing, but eventually other aspects of the sport as well.
+On April 2024, I became a national powerlifting referee for my country's IPF affiliate, and I started working on this system initially just to improve meet presentation locally. But I quickly realized the sport needs more accessible tools for organizing and running competitions; there's already a lot of expensive equipment involved in strength sports, and when you have to pay out hundreds of dollars just for a decent way to show something as simple as referee decisions, something needs to change. So I hope to contribute positively by creating useful software for all things powerlifting, not just refereeing, but eventually other aspects of the sport as well.
 
 ## Getting Started
 
-EasyLifter Referee has two main components: a desktop app, and a router built with an ESP32 module.
+EasyLifter Referee (Classic Edition) has two main components: a desktop app, and a router built with an ESP32 module.
 
 You need to install NodeJS (recommended version 18 or higher) and run `npm install` then `npm run start` on the 'app-electron' folder.
 
@@ -55,7 +57,7 @@ Once you have the desktop app running and the router set up, all you have to do 
 - [x] Main timer for the competition, plus individual countdowns for informing the next attempts.
 - [x] ESP8266 compatibility (so the router can be built either with an ESP32 or an ESP8266).
 
-Future features will be initially exclusive to the premium version and later added to the open source version.
+More features are available in our web-based version!
 
 ## Author
 
@@ -63,7 +65,7 @@ Future features will be initially exclusive to the premium version and later add
 
 ## Copyright Notice
 
-EasyLifter Referee - Free referee lights and timing system for powerlifting
+EasyLifter Referee (Classic Edition) - Referee lights and timing system for powerlifting
 
 Copyright (C) 2024 Victor Begha
 
@@ -79,5 +81,7 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+
+**Additional Terms pursuant to GPLv3 Section 7:** As a special attribution requirement, any modified or redistributed version of this program must include visible credit to **Victor Begha** as the original author in the documentation and, where applicable, in the user interface of the program. These attribution requirements are considered "Additional Permissions" under Section 7 of the GNU GPLv3.
 
 </div>
