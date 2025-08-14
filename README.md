@@ -5,6 +5,24 @@ Check out our new and improved referee lights system at https://easyliftersoftwa
 
 This repository will remain here for archival purposes.
 
+
+<div style="text-align: center">
+<img src="assets/BannerGit.png" alt="EasyLifter Referee - Open Source Software for Powerlifting - by Victor Begha" style="max-height: 150px" />
+</div>
+
+## Why you should use the new web-based EasyLifter Referee:
+
+* Fast & Intuitive: A clean, simple interface built so referees and meet directors can focus on the competition.
+
+* No Installation Needed: 100% web-based. Just open your browser and you're ready to go - no downloads, no setup.
+
+* Built for Real Meets: Designed by lifters and referees, with real-world needs in mind: practical, reliable, and competition-ready.
+
+* High-Level Presentation: More clarity for the audience, more confidence for the athletes. Give your event a professional look.
+
+Check out for yourself at https://easyliftersoftware.com/! If you want to learn more about the project, you can also contact me directly at victorbegha.dev@gmail.com.
+
+
 <br><br><br><br><br>
 <br><br><br><br><br>
 
@@ -12,10 +30,6 @@ This repository will remain here for archival purposes.
 
 
 <div style="text-align: justify">
-
-<div style="text-align: center">
-<img src="assets/BannerGit.png" alt="EasyLifter Referee - Open Source Software for Powerlifting - by Victor Begha" style="max-height: 150px" />
-</div>
 
 EasyLifter Referee (Classic Edition) is the original open source version of <a href="https://easyliftersoftware.com/">our powerlifting referee lights system</a>. For the modern, fully featured version, please visit our website!
 
@@ -35,29 +49,13 @@ On the other hand, there are commercial hardware solutions with remote controlle
 
 On April 2024, I became a national powerlifting referee for my country's IPF affiliate, and I started working on this system initially just to improve meet presentation locally. But I quickly realized the sport needs more accessible tools for organizing and running competitions; there's already a lot of expensive equipment involved in strength sports, and when you have to pay out hundreds of dollars just for a decent way to show something as simple as referee decisions, something needs to change. So I hope to contribute positively by creating useful software for all things powerlifting, not just refereeing, but eventually other aspects of the sport as well.
 
-## Getting Started
-
-EasyLifter Referee (Classic Edition) has two main components: a desktop app, and a router built with an ESP32 module.
-
-You need to install NodeJS (recommended version 18 or higher) and run `npm install` then `npm run start` on the 'app-electron' folder.
-
-For the router, all you need is an ESP32 NodeMCU module, which you can find for cheap on many online stores. Afterwards, you will need to:
-
-- Install CP210x drivers on your computer to allow Windows to recognize it when connected by USB;
-
-- Generate the code with your choosen language and network credentials, using the 'inoCodeGenerator' tool;
-
-- Load the router code through the Arduino IDE.
-
-Once you have the desktop app running and the router set up, all you have to do is connect the router to your computer with an USB cable. The desktop app will then explain how to connect the referees' phones to the system and use the simple, intuitive web app to select their decisions for each lift.
-
 ## Roadmap
 
 - [x] Fully working lights system with desktop app, ESP32 router and mobile webpage.
 - [x] Main timer for the competition, plus individual countdowns for informing the next attempts.
 - [x] ESP8266 compatibility (so the router can be built either with an ESP32 or an ESP8266).
 
-More features are available in our web-based version!
+More features are available in our web-based version! Check out https://easyliftersoftware.com/
 
 ## Author
 
